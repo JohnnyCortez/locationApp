@@ -7,5 +7,5 @@ const config = {
     port: process.env.PGPORT,
     database: process.env.PGDATABASE
 }
-
 export const pool = new pg.Pool(config)
+export default pool
