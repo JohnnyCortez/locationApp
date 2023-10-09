@@ -43,7 +43,7 @@ const seedEventsTable = async () => {
 
     pool.query(insertQuery, values, (err, res) => {
       if (err) {
-        console.error('⚠️ error inserting gift', err)
+        console.error('⚠️ error inserting event', err)
         return
       }
       console.log(`✅ ${event.name} added successfully`)

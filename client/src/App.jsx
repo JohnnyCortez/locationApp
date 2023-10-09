@@ -12,25 +12,25 @@ const App = () => {
       element: <Locations />
     },
     {
-      path: '/echolounge',
+      path: '/location1',
       element: <LocationEvents index={1} />
     },
     {
-      path: '/houseofblues',
+      path: '/location2',
       element: <LocationEvents index={2} />
     },
     {
-      path: '/pavilion',
+      path: '/location3',
       element: <LocationEvents index={3} />
     },
     {
-      path: '/americanairlines',
+      path: '/location4',
       element: <LocationEvents index={4} />
     },
-    {
-      path: '/events',
-      element: <Events />
-    }
+    // {
+    //   path: '/events',
+    //   element: <Events />
+    // }
   ])
 
   return (
@@ -41,7 +41,7 @@ const App = () => {
 
         <div className='header-buttons'>
           <Link to='/' role='button'>Home</Link>
-          <Link to='/events' role='button'>Events</Link>
+          {/* <Link to='/events' role='button'>Events</Link> */}
         </div>
       </header>
 

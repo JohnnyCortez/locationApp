@@ -7,6 +7,6 @@ const router = express.Router()
 // define routes to get events and locations
 router.get('/', eventsController.getEvents)
 
-router.get('/:eventId', eventsController.getEventById)
+router.get('/:locationName', eventsController.getEventByLocation)
 
 export default router
