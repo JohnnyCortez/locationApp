@@ -45,7 +45,7 @@ const Event = (props) => {
     // }, [event])
     return (
         <article className='event-information'>
-            <img src={event.image} />
+            <img src={props.url} />
 
             <div className='event-information-overlay'>
                 <div className='text'>
